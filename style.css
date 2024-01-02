@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Img img {
+    height: 200px;
+    width: 150;
+    border-radius: 40PX;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white ;
+    background-color: black;
+}
