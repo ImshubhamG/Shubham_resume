@@ -10,13 +10,16 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!-- navbar work -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top text-uppercase">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary fixed-top text-uppercase"
+    >
       <div class="container-fluid">
-        <a class="navbar-brand font-weight-bold " href="#">portfolio</a>
+        <a class="navbar-brand font-weight-bold" href="#">portfolio</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -33,29 +36,177 @@
             <a class="nav-link px-4 rounded-pill" href="#">Home</a>
             <a class="nav-link px-4 rounded-pill" href="#">About Me</a>
             <a class="nav-link px-4 rounded-pill" href="#">Contact Us</a>
-            <a class="nav-link px-4 rounded-pill" href="#">Blog</a>
           </div>
         </div>
       </div>
     </nav>
     <!-- main section work -->
-    <section class="main py-5">
+    <section class="main py-5" >
       <div class="container py-5">
-        <div class="row py5">
+        <div class="row py5" style="display: flex; justify-content: center;">
           <div class="col-lg-6 py-5">
             <h3><small>Hello,I'm</small></h3>
-            <h3>
-             SHUBHAM GAUTTAM
-            </h3>
+            <h3>SHUBHAM GAUTTAM</h3>
             <h5>Front-End Developer</h5>
-            <input type="button"value="My Projects" class="bt1 mt-5 mx-2">
-            <input type="button"value="Hire Me" class="bt2 mt-5 mx-2">
+            <input type="button" value="My Projects" class="bt1 mt-5 mx-2" />
+            <input type="button" value="Hire Me" class="bt2 mt-5 mx-2" />
+          </div>
+          <div class="col-lg-6 py-5 px-5">
+            <img  src="./shubham.jpg" class="img-fluid " alt="">
           </div>
         </div>
       </div>
-      
     </section>
+    <!-- <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <img src="" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div> -->
+      <div class="projects_container bg-">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+           
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <a href="https://imshubhamg.github.io/project2/"><img src="./Screenshot (1).png" class="d-block w-50 mx-auto" alt="..."
+                ></a>
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+             <a href="https://imshubhamg.github.io/project1/"><img src="./Screenshot (2).png" class="d-block w-50 mx-auto" alt="..."></a> 
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
 
+    <!-- <section class="project_sec">
+      <div class="card1">
+        <div class="card" style="width: 18rem">
+          <img src="./shubham.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card2">
+        <div class="card" style="width: 18rem">
+          <img src="./shubham.jpg"  class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom text-center text-uppercase font-weight-bold ">Technical Skills
+      </h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+            <span class="material-symbols-outlined">
+              school
+              </span>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">HTML,CSS & Java Script</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+         
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+            <span class="material-symbols-outlined">
+              school
+              </span>          </div>
+          <h3 class="fs-2 text-body-emphasis">BOOTSTRAP</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+         
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+            <span class="material-symbols-outlined">
+              school
+              </span>          </div>
+          <h3 class="fs-2 text-body-emphasis">REACT</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+       
+        </div>
+      </div>
+    </div>
+    <section class="contact py-5">
+      <div class="container py-5">
+        <h1 class="text-center">CONTACT US</h1>
+        <div class="row py-5">
+          <div class="col-lg-10 mx-auto">
+            <div class="row text-center">
+              <div class="col-lg-4">
+                <div class="circle">
+                  <span class="material-symbols-outlined">
+                    home
+                    </span>
+                </div>
+                <h5>Address</h5>
+                <p>Chamunda Colony,K.Patan</p>
+              </div>
+              <div class="col-lg-4">
+                <div class="circle">
+                 
+                  <span class="material-symbols-outlined">
+                    mail
+                    </span>
+
+                </div>
+                <h5>Email</h5>
+                <p>Imshubhamg7@gmail.com</p>
+              </div>
+        
+              <div class="col-lg-4">
+                <div class="circle">
+                  <span class="material-symbols-outlined">
+                    phone_in_talk
+                    </span>
+                </div>
+                <h5>phone</h5>
+                <p>8005565929</p>
+
+              </div>
+            </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <footer class="py-3 text-center">
+      <p>
+        Copy Right 2024 © by #Imshubham All Rights Reserved
+      </p>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
