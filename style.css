@@ -141,4 +141,12 @@ footer{
     .img-fluid {
      display: none;
   }
+  .main{
+    /* background-color: rgb(249, 244, 249) ; */
+
+
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
 }
