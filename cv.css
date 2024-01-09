@@ -1,48 +1,39 @@
-*{
-    margin: opx;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-.main{
-   padding: 10px 10px;
-   margin-bottom:10px;
-
-    text-align: center;
-    background-color: #E4E4E9;
-    
+.main {
+  text-align: center;
+  background-color: #e4e4e9;
 }
-.main h1{
-    font-weight: 700;
-    color: #000066;
+.main h1 {
+  font-weight: 700;
+  color: #000066;
 }
-.right_container{
-    width: 40%;
+.row{
+  width: -webkit-fill-available;
 }
-.container{
-    gap: 50px;
+/* .container{
+  gap: 30px;
+} */
+/* .right_container {
+width: 30%;
+} */
+h3 {
+  color: #000066;
+  font-weight: 700;
 }
-h3{
-    color: #000066;
-    font-weight: 700;
+p {
+  font-weight: 500;
 }
-p{
-    font-weight: 500;
-}
-.border_bottom{
-    border-bottom: 4px solid #000066;
-    padding-bottom: 3px;
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+.border_bottom {
+  border-bottom: 4px solid #000066;
+  padding-bottom: 3px;
 }
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
